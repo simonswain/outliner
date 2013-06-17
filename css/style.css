@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    background: #eee;
+}
+
+body {
+    font-family: arial;
+}
+
+
+.app {
+    width: 960px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #aaa;
+    padding: 16px;
+    margin: auto;
+}
+
+.app h3 {
+    margin: 0 0 8px 0;
+}
+
+.nodes {
+}
+
+.node {
+    margin: 2px 0;
+}
+
+.node.selected>.text {
+    background: #69c;
+    color: #fff;
+}
+
+.node.focused>.text {
+    background: #000;
+    color: #fff;
+}
+
+.node .text {
+    padding: 8px;
+    background: #eee;
+    border-radius: 4px;
+}
+
+.node .nodes {
+    padding-left: 8px;
+}
